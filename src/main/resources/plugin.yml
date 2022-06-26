@@ -1,0 +1,10 @@
+name: MabreHub
+version: '0.1'
+main: org.mabre.plugins.mabrehub.MabreHub
+api-version: 1.19
+authors: [ mabre ]
+description: Mabre Hub
+libraries:
+  - "io.javalin:javalin:4.6.3"
+  - "org.slf4j:slf4j-simple:1.7.36"
+  - "com.fasterxml.jackson.core:jackson-databind:2.13.3"
